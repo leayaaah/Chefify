@@ -11,7 +11,7 @@ const recipes = [
     time: '20 min',
     category: 'Lunch',
     image:
-      'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-4.svg',
   },
   {
     id: 5,
@@ -21,7 +21,7 @@ const recipes = [
     time: '28 min',
     category: 'Dinner',
     image:
-      'https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-5.svg',
   },
   {
     id: 6,
@@ -31,7 +31,7 @@ const recipes = [
     time: '10 min',
     category: 'Dessert',
     image:
-      'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-6.svg',
   },
   {
     id: 7,
@@ -41,7 +41,7 @@ const recipes = [
     time: '15 min',
     category: 'Breakfast',
     image:
-      'https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-7.svg',
   },
 ]
 

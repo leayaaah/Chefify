@@ -9,7 +9,7 @@ const savedRecipes = [
     time: '40 min',
     category: 'Soup',
     image:
-      'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-8.svg',
   },
   {
     id: 9,
@@ -19,7 +19,7 @@ const savedRecipes = [
     time: '18 min',
     category: 'Salad',
     image:
-      'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-9.svg',
   },
 ]
 
@@ -30,7 +30,7 @@ function RecipeBox() {
         <div className="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80"
+              src="/images/avatar.svg"
               alt="Profile"
               className="rounded-circle object-fit-cover"
               width="72"

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { FiChevronRight } from 'react-icons/fi'
 import RecipeCard from '../components/ui/RecipeCard'
 import Button from '../components/ui/Button'
@@ -11,7 +12,7 @@ const featuredRecipes = [
     time: '25 min',
     category: 'Healthy',
     image:
-      'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-1.svg',
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ const featuredRecipes = [
     time: '30 min',
     category: 'Breakfast',
     image:
-      'https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-2.svg',
   },
   {
     id: 3,
@@ -31,7 +32,7 @@ const featuredRecipes = [
     time: '35 min',
     category: 'Dinner',
     image:
-      'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80',
+      '/images/recipe-3.svg',
   },
 ]
 
@@ -55,7 +56,7 @@ function Home() {
           </div>
           <div className="col-lg-6">
             <img
-              src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80"
+              src="/images/hero.svg"
               alt="Healthy dishes"
               className="w-100 hero-image"
             />
@@ -66,9 +67,9 @@ function Home() {
       <section>
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h2 className="h4 mb-0">Popular recipes</h2>
-          <a href="/categories" className="small text-brand text-decoration-none fw-semibold">
+          <Link to="/categories" className="small text-brand text-decoration-none fw-semibold">
             View all
-          </a>
+          </Link>
         </div>
         <div className="row g-3">
           {featuredRecipes.map((recipe) => (

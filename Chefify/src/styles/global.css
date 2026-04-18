@@ -52,7 +52,3 @@ body {
   box-shadow: var(--bs-box-shadow) !important;
 }
 
-.app-footer-sticky {
-  position: sticky;
-  bottom: 0;
-}
