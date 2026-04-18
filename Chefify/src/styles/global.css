@@ -1,0 +1,58 @@
+:root {
+  --brand: #e91e63;
+}
+
+body {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+}
+
+.text-brand {
+  color: var(--brand) !important;
+}
+
+.bg-brand {
+  background-color: var(--brand) !important;
+}
+
+.border-brand {
+  border-color: var(--brand) !important;
+}
+
+.btn-brand {
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+  color: #fff;
+  border-radius: var(--bs-border-radius-pill);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-brand:hover,
+.btn-brand:focus,
+.btn-brand:focus-visible {
+  background-color: #d81b60;
+  border-color: #d81b60;
+  color: #fff;
+}
+
+.hero-image {
+  min-height: 280px;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.recipe-card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--bs-box-shadow) !important;
+}
+
+.app-footer-sticky {
+  position: sticky;
+  bottom: 0;
+}
